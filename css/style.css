@@ -1,0 +1,179 @@
+@media (min-width: 768px) {
+    body {
+        zoom: 60%; /* Establece el zoom al 67% en dispositivos con un ancho mínimo de 1366px */
+    }
+}
+
+
+.campo{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 187px 0px 0px 1454px ;
+	width: 386px;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #4F5457;
+}
+
+.campo2{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 252px 0px 0px 1454px ;
+	width: 386px;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #4F5457;
+
+}
+
+.campo3{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 318px 0px 0px 1452px ;
+	width: 386px;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #4F5457;
+
+}
+
+.campo4{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 208px 0px 0px 1455px ;
+	width: 386px;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #4F5457;
+
+}
+
+.campo5{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 275px 0px 0px 1455px ;
+	width: 386px;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #4F5457;
+
+}
+
+.campocel{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 153px 0px 0px 55px ;
+	width: 302px;
+	height: 28px;
+	font-size: 20px;
+	color: #4F5457;
+}
+
+.campo2cel{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 208px 0px 0px 55px ;
+	width: 302px;
+	height: 28px;
+	font-size: 20px;
+	color: #4F5457;
+
+}
+
+.campo3cel{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 261px 0px 0px 55px ;
+	width: 302px;
+	height: 28px;
+	font-size: 20px;
+
+	color: #4F5457;
+
+}
+.campo4cel{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 182px 0px 0px 45px ;
+	width: 302px;
+	height: 28px;
+	font-size: 20px;
+	color: #4F5457;
+}
+.campo5cel{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 239px 0px 0px 45px ;
+	width: 302px;
+	height: 28px;
+	font-size: 20px;
+	color: #4F5457;
+
+}
+.button{
+	position: absolute;
+	border: 0px;
+	margin: 480px 0px 0px 1573px;
+	width: 172px;
+	height: 43px;
+}
+.button2{
+	position: absolute;
+	border: 0px;
+	margin: 332px 0px 0px 1574px;
+	width: 172px;
+	height: 43px;
+}
+.check{
+	position: absolute;
+	border: 0px;
+	outline: none;
+	margin: 394px 0px 0px 1450px;
+	width: 18px;
+	height: 19px;
+}
+.buttoncel{
+	position: absolute;
+	border: 0px;
+	margin: 393px 0px 0px 150px;
+	width: 137px;
+	height: 35px;
+}
+.buttoncel12{
+	position: absolute;
+	border: 0px;
+	margin: 288px 0px 0px 144px;
+	width: 145px;
+	height: 35px;
+}
+.checkcel{
+	position: absolute;
+	border: 0px;
+	margin: 321px 0px 0px 48px;
+	width: 14px;
+	height: 19px;
+}
+
+
+
+
+
+
+
+
+

